@@ -1,0 +1,10 @@
+{
+  "description": "A retro terminal-style developer profile that introduces its owner, shares helpful instructions and links, and provides a conversational interface for visitors.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
