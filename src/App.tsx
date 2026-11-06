@@ -180,7 +180,9 @@ export default function App() {
                   <div>
                     <dt>github</dt>
                     <dd>
-                      <a href="https://github.com/nodonut6311">github.com/nodonut6311</a>
+                      <a href="https://github.com/nodonut6311" target="_blank" rel="noopener noreferrer">
+                      github.com/nodonut6311 
+                      </a>
                     </dd>
                   </div>
                   <div>
