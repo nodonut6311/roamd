@@ -236,7 +236,7 @@ export default function App() {
             languages{")"}.
           </p>
           <p>
-            i love storytelling, i've curated short-form social content, scripts, and community-led narratives across 4 college clubs, 
+            love storytelling, i've curated short-form social content, scripts, and community-led narratives across 4 college clubs, 
             driving stronger community connection. 
           </p>
           <p>
