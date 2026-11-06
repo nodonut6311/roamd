@@ -186,7 +186,7 @@ export default function App() {
                   <div>
                     <dt>linkedin</dt>
                     <dd>
-                      <a href="https://www.linkedin.com/in/rohan-amudhala-b70000325/">
+                      <a href="https://www.linkedin.com/in/rohan-amudhala-b70000325/" target="_blank" rel="noopener noreferrer">
                         linkedin.com/in/rohan-amudhala-b70000325
                       </a>
                     </dd>
