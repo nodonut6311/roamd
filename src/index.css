@@ -518,16 +518,50 @@
 
 @media (max-width: 600px) {
   .terminal-window {
-    margin: 12px;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
     transform: none;
+    border-radius: 0;
+    overflow-x: hidden;
   }
+
   .intro-panel {
+    min-width: 0;
+    width: auto;
+    margin: 0 12px;
+    padding: 16px;
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 24px;
     min-height: 0;
-    padding: 20px 20px 21px;
   }
-  .terminal-window h1 {
-    font-size: 40px;
+
+  .intro-content,
+  .details-grid,
+  .tips-section,
+  .elsewhere {
+    min-width: 0;
+  }
+
+  .pixel-title {
+    font-size: 28px;
+    overflow-wrap: anywhere;
+  }
+
+  .pixel-title span {
+    font-size: inherit;
+  }
+
+  .tip-row {
+    display: block;
+  }
+
+  .tip-text {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .intro-panel a {
+    word-break: break-all;
   }
 }
