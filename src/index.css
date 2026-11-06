@@ -515,3 +515,19 @@
     margin-left: -18px;
   }
 }
+
+@media (max-width: 600px) {
+  .terminal-window {
+    margin: 12px;
+    transform: none;
+  }
+  .intro-panel {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    min-height: 0;
+    padding: 20px 20px 21px;
+  }
+  .terminal-window h1 {
+    font-size: 40px;
+  }
+}
